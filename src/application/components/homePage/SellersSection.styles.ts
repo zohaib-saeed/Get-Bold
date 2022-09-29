@@ -1,5 +1,5 @@
 import { createStyles } from '@mantine/core';
-
+ 
 export const useSellersStyles = createStyles((theme) => ({
   sellers: {
     padding: '2rem 0 4rem',

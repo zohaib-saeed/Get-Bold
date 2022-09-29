@@ -8,7 +8,7 @@ export default function HomePage() {
     <>
       <HeroSection />
       <ServicesSection />
-      <SellersSection />
+      {/* <SellersSection /> */}
       <ChooseUsSection />
     </>
   );

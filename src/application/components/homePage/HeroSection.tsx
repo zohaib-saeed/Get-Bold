@@ -9,7 +9,7 @@ import { Buttons } from '@/application/components/Buttons/Buttons';
 export function HeroSection() {
   const { classes } = useHeroStyles();
   return (
-    <div className={classes.hero}>
+    <div className={classes.hero}>  
       <Container size="xl" className={classes.innerHeroSection}>
         {/*  Left Side - Text Side  */}
         <div>
