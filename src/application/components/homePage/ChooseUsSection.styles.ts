@@ -87,10 +87,14 @@ export const useChooseUsStyles = createStyles((theme) => ({
       width: '90%',
     },
   },
-  test: {
+  iconItemImg: {
+    width: '57px',
+    height: '57px',
+    minWidth: '57px',
+    minHeight: '57px',
     display: 'flex',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
     alignItems: 'center',
-    width: '100%',
+    position: 'relative',
   },
 }));

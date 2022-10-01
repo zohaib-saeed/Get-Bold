@@ -42,10 +42,18 @@ export function ChooseUsSection() {
           </ResponsiveHeading.P>
           <div className={classes.items}>
             {itemsData.map((item, index) => (
-              <div className={classes.test}>
+              <div>
                 <div className={classes.iconItem}>
-                  <div>
-                    <Image src={item.url} alt="icon" width={57} height={57} />
+                  <div className={classes.iconItemImg}>
+                    <Image
+                      src={item.url}
+                      alt="icon"
+                      priority
+                      // width={57}
+                      // height={57}
+                      objectFit="cover"
+                      layout="fill"
+                    />
                   </div>
                   <ResponsiveHeading.P className={classes.iconItemTitle}>
                     {item.title}
