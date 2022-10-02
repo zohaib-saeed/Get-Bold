@@ -22,6 +22,7 @@ export const useProductShowcaseStyles = createStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     position: 'relative',
+    cursor: 'pointer',
   },
   sortingLabel: {
     display: 'flex',
@@ -58,6 +59,14 @@ export const useProductShowcaseStyles = createStyles((theme) => ({
     fontSize: '14px',
     fontWeight: 'normal',
     color: `${theme.colors.grays[8]}`,
+  },
+  selectBoxOptionText: {
+    fontSize: '14px',
+    fontWeight: 'normal',
+    color: `${theme.colors.grays[8]}`,
+    // borderBottom: `2px solid ${theme.colors.grays[8]}`,
+    paddingBottom: '0.3rem',
+    cursor: 'pointer',
   },
   productShowcase: {
     display: 'grid',
