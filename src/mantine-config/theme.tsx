@@ -7,7 +7,7 @@ export const theme: MantineThemeOverride = {
   // primaryColor: '#269D49',
   colors: {
     // Add your color
-    primary: ['#DEF1E4', '#269D49', '#2A4431'],
+    primary: ['#DEF1E4', '#269D49', '#2A4431', '#D1D1D1'],
     grays: [
       '#FFFFFF',
       'rgba(255,255,255,0.73)',
@@ -16,7 +16,10 @@ export const theme: MantineThemeOverride = {
       '#959595',
       '#35393C',
       '#222222',
+      '#181C24',
+      '#172026',
     ],
+    backgrounds: ['#F9F9F9'],
     semantic: ['#238564', '#1A6149', '#D7373F', '#AA2228'],
   },
   breakpoints: {

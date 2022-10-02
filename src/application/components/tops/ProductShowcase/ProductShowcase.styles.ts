@@ -1,0 +1,68 @@
+import { createStyles } from '@mantine/core';
+
+export const useProductShowcaseStyles = createStyles((theme) => ({
+  products: {
+    display: 'flex',
+    justifyContent: 'flex-start',
+    alignItems: 'center',
+    flexDirection: 'column',
+    width: '100%',
+    padding: '1rem 0rem',
+    backgroundColor: `${theme.colors.grays[0]}`,
+  },
+  productsTop: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: '100%',
+    padding: '0.5rem 1rem',
+  },
+  sortingBox: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+  },
+  sortingLabel: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    border: `1px solid #B5B7BC`,
+    padding: '0.2rem 0.4rem',
+    borderRadius: '4px',
+  },
+  sortingDropdown: {
+    position: 'absolute',
+    top: '3rem',
+    width: '100%',
+    padding: '0.5rem 0.5rem',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'flex-start',
+    flexDirection: 'column',
+    backgroundColor: `${theme.colors.grays[0]}`,
+    border: `1px solid #B5B7BC`,
+    borderRadius: '4px',
+    zIndex: 111,
+  },
+  arrowDownIcon: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: '45px',
+    height: '37px',
+    position: 'relative',
+    marginLeft: '1rem',
+  },
+  productTopText: {
+    fontSize: '14px',
+    fontWeight: 'normal',
+    color: `${theme.colors.grays[8]}`,
+  },
+  productShowcase: {
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr 1fr',
+    gridGap: '0.7rem',
+    padding: '1rem 1rem 1rem 0rem',
+  },
+}));

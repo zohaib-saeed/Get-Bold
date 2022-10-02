@@ -4,6 +4,13 @@ export const useChooseUsStyles = createStyles((theme) => ({
   chooseUs: {
     padding: '2rem 0rem',
     background: theme.colors.grays[0],
+    marginBottom: '8rem',
+    [`@media (max-width: ${theme.breakpoints.lg}px)`]: {
+      marginBottom: '5rem',
+    },
+    [`@media (max-width: ${theme.breakpoints.md}px)`]: {
+      marginBottom: '3rem',
+    },
   },
   chooseUsHeading: {
     testAlign: 'left',
